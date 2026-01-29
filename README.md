@@ -104,7 +104,7 @@ Instead of analyzing *what* music is played, this project explores **how, when, 
 🔗 **Live Dashboard**
 
 👉 **Power BI Public Link:**
-https://app.powerbi.com/view?r=eyJrIjoiMzFmY2FiNjYtNmU5Yi00YWMyLWIzMzQtOTVhMTI3Yjk3YTk1IiwidCI6ImMwYTliYmUyLWQyMzMtNDMwMi1iYzAxLWIwNTI5N2E3YTM3NyJ9
+https://app.powerbi.com/view?r=eyJrIjoiZWM0ODQzOTgtYzhlYy00MjQyLTk1ZWEtYzQxNmIyMjFmMDIyIiwidCI6ImMwYTliYmUyLWQyMzMtNDMwMi1iYzAxLWIwNTI5N2E3YTM3NyJ9
 
 > Dashboard is view-only and optimized for desktop viewing.
 
