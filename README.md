@@ -1,108 +1,127 @@
-Data in Decibels: Streaming Behavior Analysis
-Project Overview
 
-Data in Decibels is a personal data analytics project that analyzes music streaming behavior using Spotify listening history.
-The goal of this project is to move beyond surface-level music preferences and understand listening behavior, engagement, and habits through data.
+🧑‍💻 **Author**
 
-The analysis focuses on when, how, and how deeply music is consumed, using behavioral metrics such as listening time, skip rate, and track recurrence.
+**Swathi Badrinarayanan**
+📬 Connect on [LinkedIn](https://www.linkedin.com/in/swathi-badrinarayanan/) | ✉️ [Email Me](mailto:swathi.badri18@gmail.com)
 
-Live Dashboard
+---
 
-🔗 Power BI Live Dashboard:
+🎧 **Data in Decibels — Spotify Listening Behavior Analysis**
+
+A personal **data analytics project** built using **Spotify Extended Streaming History** and **Power BI**, focused on understanding **listening habits, engagement patterns, and behavior over time**.
+
+Instead of analyzing *what* music is played, this project explores **how, when, and how deeply** music is consumed using behavioral metrics like **listening time, skip rate, and repeat engagement**.
+
+---
+
+🚀 **Features**
+
+* 📈 **Listening Trend Analysis** – Track listening behavior over time using time-series analysis.
+* 🎵 **Top Artists & Tracks** – Identify artists and tracks with the highest listening time.
+* ⏰ **Time & Habit Insights** – Analyze listening behavior by hour, weekday vs weekend.
+* ⏭️ **Skip Behavior Analysis** – Use skip rate as a proxy for engagement and attention.
+* 📊 **Year-wise Track Comparison** – Discover which tracks persist across multiple years.
+* 🎨 **Dark-Themed Dashboards** – Clean, stakeholder-friendly Power BI visualizations.
+
+---
+
+🏗️ **Project Structure**
+
+```
+📂 Spotify-Listening-Analytics/
+│
+├── data/
+│   ├── raw/               # Original Spotify JSON files
+│   ├── processed/         # Cleaned and transformed CSV files
+│
+├── notebooks/
+│   └── data_cleaning.ipynb  # Python data cleaning & preprocessing
+│
+├── dashboards/
+│   └── Data_in_Decibels.pbix # Power BI dashboard file
+│
+└── README.md               # Project documentation
+```
+
+---
+
+🧠 **Tech Stack**
+
+| Category            | Tools / Technologies               |
+| ------------------- | ---------------------------------- |
+| Data Source         | Spotify Extended Streaming History |
+| Data Processing     | Python (Pandas, NumPy)             |
+| Visualization       | Power BI                           |
+| Analysis Techniques | Time Series, Behavioral Metrics    |
+| File Formats        | JSON, CSV                          |
+
+---
+
+⚙️ **Setup & Usage**
+
+1. **Download Spotify Data**
+
+   * Request *Extended Streaming History* from Spotify Privacy Settings.
+   * Extract JSON files.
+
+2. **Data Cleaning**
+
+   * Use the provided Jupyter Notebook to clean and transform JSON files into CSV.
+
+3. **Power BI Dashboard**
+
+   * Open `Data_in_Decibels.pbix` in Power BI Desktop.
+   * Refresh data source paths if required.
+
+---
+
+📊 **Dashboards Overview**
+
+### 🟣 Dashboard 1: Overview
+
+* Listening trend over time
+* KPI cards (Total Minutes, Unique Artists, Total Tracks, Skip Rate)
+* Top artists by listening time
+
+### 🟣 Dashboard 2: Time & Habit Analysis
+
+* Listening by hour
+* Weekday vs weekend comparison
+* Top played tracks by year
+* Skip rate by hour
+
+---
+
+🧩 **Key Insights**
+
+* Late-night listening shows **higher engagement and lower skip rates**
+* Daytime listening is more fragmented with higher skipping
+* A small group of artists dominate listening sessions
+* Tracks that persist across years indicate **true engagement**, not just popularity
+
+---
+
+🔗 **Live Dashboard**
+
+👉 **Power BI Public Link:**
 https://app.powerbi.com/view?r=eyJrIjoiMzFmY2FiNjYtNmU5Yi00YWMyLWIzMzQtOTVhMTI3Yjk3YTk1IiwidCI6ImMwYTliYmUyLWQyMzMtNDMwMi1iYzAxLWIwNTI5N2E3YTM3NyJ9
 
-**Data Source**
+> Dashboard is view-only and optimized for desktop viewing.
 
-Spotify Extended Streaming History
+---
 
-Data includes:
+🧠 **Learnings**
 
-Track and artist metadata
+This project helped strengthen skills in:
 
-Listening timestamps
+* Translating raw event-level data into insights
+* Designing meaningful behavioral metrics
+* Building concise, insight-driven dashboards
+* Balancing analytical depth with visual clarity
 
-Play duration
 
-Skip behavior
 
-Platform and temporal context
+🧑‍💻 **Author**
 
-All data used is personal and anonymized where applicable.
-
-**Tools & Technologies
-**
-Python (data cleaning, preprocessing, feature engineering)
-
-Power BI (data modeling, DAX measures, dashboard design)
-
-Pandas (data manipulation)
-
-GitHub (version control and project documentation)
-
-**Dashboard Structure**
-**Dashboard 1: Overview**
-
-Focuses on high-level listening trends and scale.
-
-Total listening minutes
-
-Unique artists
-
-Total tracks played
-
-Overall skip rate
-
-Listening trend over time
-
-Top artists by listening time
-
-Purpose: Establish context and overall listening behavior.
-
-**Dashboard 2: Time & Habit Analysis**
-
-Focuses on behavioral patterns and engagement quality.
-
-Listening by hour
-
-Weekday vs weekend comparison
-
-Top played tracks by year
-
-Skip rate by hour
-
-Purpose: Understand how time and context influence engagement.
-
-**Key Insights**
-
-Listening behavior varies significantly by time of day, with deeper engagement during late-night hours.
-
-A small subset of artists dominates listening sessions, indicating strong loyalty patterns.
-
-Tracks ranked by listening time provide better insight into engagement than play counts alone.
-
-Skip rate serves as a strong proxy for attention and intent.
-
-Project Highlights
-
-Behavioral analytics over preference-based analysis
-
-Metric design focused on engagement quality
-
-Clean, stakeholder-friendly dashboard layout
-
-Intentional limitation to two dashboards to avoid overengineering
-
-**Use Cases**
-
-Portfolio project for data analyst roles
-
-Demonstration of Power BI dashboarding and DAX skills
-
-Example of turning personal event data into behavioral insights
-
-Author
-
-Swathi badri narayanan
-gmail: swathi.badri18@gmail.com
-
-If you have feedback or would like to discuss the approach, feel free to connect.
+**Swathi Badrinarayanan**
+📬 Connect on [LinkedIn](https://www.linkedin.com/in/swathi-badrinarayanan/) | ✉️ [Email Me](mailto:swathi.badri18@gmail.com)
